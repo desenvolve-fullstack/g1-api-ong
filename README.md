@@ -23,3 +23,35 @@ Criar uma API RESTful e Frontend para:
 
 ### Arquitetura
 ![Diagrama](./docs/ong-arch.jpg)
+
+## Setup
+
+- [Fastfy](https://fastify.dev/)
+- [NodeJs](https://nodejs.org/en/download)
+- [DBeaver](https://dbeaver.io/download/)
+- [Docker](https://docs.docker.com/engine/install/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+## Inicie o container do banco de dados PostgreSQL
+
+1. Clone este repositório
+```bash
+  git clone https://github.com/desenvolve-fullstack/g1-api-ong.git
+```
+
+3. Navegue até a pasta raiz do projeto
+```bash
+  cd g1-api-ong
+```
+
+5. Execute o comando docker
+```bash
+  docker compose up -d db
+```
+
+4. Acesse o DBeaver e faça a conexão com o banco de dados
+  > Host: localhost\
+  > Porta: 5432 (padrão)\
+  > Usuário: pguser\
+  > Senha: pgpwd\
+  > DB name: ong
