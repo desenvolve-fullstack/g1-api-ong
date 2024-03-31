@@ -1,0 +1,29 @@
+{
+  "name": "g1-api-ong",
+  "version": "1.0.0",
+  "description": "Sistema de gestão de doações e distribuição de alimentos para ONGs.",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+   "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desenvolve-fullstack/g1-api-ong.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desenvolve-fullstack/g1-api-ong/issues"
+  },
+  "homepage": "https://github.com/desenvolve-fullstack/g1-api-ong#readme",
+  "dependencies": {
+    "fastify": "^4.26.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
