@@ -55,3 +55,25 @@ Criar uma API RESTful e Frontend para:
   > Usuário: pguser\
   > Senha: pgpwd\
   > DB name: ong
+
+## Executando o projeto
+
+1. Clone este repositório
+```bash
+  git clone https://github.com/desenvolve-fullstack/g1-api-ong.git
+```
+
+2. Caso já tenha esse repositório em seu computador, mas esteja desatualizado, faça o pull do projeto
+```bash
+  git pull
+```
+
+3. Instale as dependências
+```bash
+  npm install
+```
+
+4. Execute o projeto
+```bash
+  npm run dev
+```
