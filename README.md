@@ -27,7 +27,7 @@ Criar uma API RESTful e Frontend para:
 ## Setup
 
 - [NodeJs](https://nodejs.org/en/download)
-- [NestJS]([https://fastify.dev/](https://nestjs.com/))
+- [NestJS](https://nestjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [TypeORM](https://typeorm.io/)
 - [DBeaver](https://dbeaver.io/download/)
