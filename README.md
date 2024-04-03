@@ -79,3 +79,21 @@ Criar uma API RESTful e Frontend para:
 ```bash
   npm run dev
 ```
+
+## Acordos
+
+### Github Branchs
+  - Devemos manter e não cometer violação nas proteções das branchs main
+  - Devemos usar o git flow para ramificações:
+    - Branch prefixes:
+      - Branch de nova funcionalidade? [feature/]
+      - Branch de correção? [fix/]
+      - Branch de bug? [hotfix/]
+      - Branch de melhoria? [refactor/]
+      - Branch de mudança nas configurações? [chore/]
+      - Branch de testes? [test/]
+  
+      Após a barra " / " , o número da task do kanban, em seguida o nome da tarefa separando por traço " - ", como por exemplo: feature/12345-get-task.
+### Github PRs 
+- Para os PRs de uma branch para main é necessário o review de duas pessoas.
+- Na descrição do PR descrever objetivo e o que foi desenvolvido de forma clara.
