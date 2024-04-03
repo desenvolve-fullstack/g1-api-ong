@@ -22,12 +22,14 @@ Criar uma API RESTful e Frontend para:
 - Efetue a entrega de um pedido, fazendo a baixa das quantidades no estoque e registrando a entrega.
 
 ### Arquitetura
-![Diagrama](./docs/ong-arch.jpg)
+![Diagrama](./docs/Desenvolve-Projeto-Ong.png)
 
 ## Setup
 
-- [Fastfy](https://fastify.dev/)
 - [NodeJs](https://nodejs.org/en/download)
+- [NestJS]([https://fastify.dev/](https://nestjs.com/))
+- [TypeScript](https://www.typescriptlang.org/)
+- [TypeORM](https://typeorm.io/)
 - [DBeaver](https://dbeaver.io/download/)
 - [Docker](https://docs.docker.com/engine/install/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
