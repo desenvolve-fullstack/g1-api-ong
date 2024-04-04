@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Sistema de gestão de doações e distribuição de alimentos para ONGs.",
   "main": "index.js",
-  "type": "module",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-   "dev": "nodemon app.js"
+    "build": "tsc",
+    "dev": "tsc-watch --onSuccess \"node dist/main.js\""
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,16 @@
   },
   "homepage": "https://github.com/desenvolve-fullstack/g1-api-ong#readme",
   "dependencies": {
-    "fastify": "^4.26.2"
+    "@nestjs/common": "^10.3.7",
+    "@nestjs/core": "^10.3.7",
+    "@nestjs/platform-express": "^10.3.7",
+    "fastify": "^4.26.2",
+    "rxjs": "^7.8.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "@nestjs/cli": "^10.3.2",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.4.3"
   }
 }

@@ -75,7 +75,12 @@ Criar uma API RESTful e Frontend para:
   npm install
 ```
 
-4. Execute o projeto
+4. Execute a build
+```bash
+  npm run build
+```
+
+5. Execute o projeto
 ```bash
   npm run dev
 ```
