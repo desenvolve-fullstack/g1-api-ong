@@ -8,7 +8,9 @@ import { HealthCheckService } from './services/health.service';
 
 @Module({
   imports: [
-    ConfigModule.forRoot(),
+    ConfigModule.forRoot({
+      envFilePath:['.development.env']
+    }),
     TypeOrmModule.forRootAsync({
     useClass: DbConfigService,
     inject: [DbConfigService]
