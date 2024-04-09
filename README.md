@@ -34,7 +34,7 @@ Criar uma API RESTful e Frontend para:
 - [Docker](https://docs.docker.com/engine/install/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
-## Inicie o container do banco de dados PostgreSQL
+## Inicie o container do banco de dados PostgreSQL{#start-postgresql-container}
 
 1. Clone este repositório
 ```bash
@@ -84,6 +84,11 @@ Criar uma API RESTful e Frontend para:
 ```bash
   npm run dev
 ```
+
+5. Crie o arquivo de env de desenvolvimento (.development.env) e use as propriedades que estão descritas em .env.example. Os dados do banco foram fornecidos no item 4 da configuração do postgres. [Clique aqui para acessar](#start-postgresql-container) 
+.
+
+
 
 ## Acordos
 
